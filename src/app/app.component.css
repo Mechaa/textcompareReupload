@@ -1,0 +1,32 @@
+p {
+  font-family: Lato;
+}
+.areaone {
+  background-color: black;
+ 
+}
+.areatwo {
+  background-color: red;
+  
+}
+.areathree {
+  background-color: blue;
+ 
+}
+.inputfield{
+  width:99%;
+  height:400px;
+  resize:none
+}
+.resultarea{
+  width:99%;
+  white-space: pre-wrap;
+  color: beige
+}
+table{
+  border-radius: 10px;
+  background: #73AD21;
+  padding: 10px;
+  color: azure
+
+}
