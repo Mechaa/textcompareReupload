@@ -59,15 +59,16 @@ export class AppComponent {
           "<span class = '" + cssClass + "'>" +
           allText.substring(currentNumber, errors[i] + 1) +
           "</span>" +
-          allText.substring(errors[i] + 1);
+          allText.substring(errors[i] , allText.length);
       } else {
         completedString +=
           allText.substring(startarray, currentNumber) +
           "<span class = '" + cssClass + "'>" +
           allText.substring(currentNumber, errors[i] + 1) +
           "</span>" +
-          allText.substring(errors[i], errors[i + 1]);
+          allText.substring(errors[i]+1, errors[i + 1]);
       }
+      startarray = errors[i + 1];
     }
     //if there is no errors, just return text
     if (completedString === "") {
